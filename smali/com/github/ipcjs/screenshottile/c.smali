@@ -33,7 +33,7 @@
 
     const/4 v3, 0x0
 
-    const-string v4, "su"
+    const-string v4, "sh"
 
     aput-object v4, v2, v3
 
