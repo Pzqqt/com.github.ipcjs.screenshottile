@@ -7,7 +7,7 @@
         <item>@string/setting_delay_entry_5s</item>
     </string-array>
     <string-array name="setting_delay_values">
-        <item>@string/setting_delay_value_default</item>
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>5</item>
