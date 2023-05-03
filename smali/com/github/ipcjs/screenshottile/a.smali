@@ -64,7 +64,7 @@
 
     move-result-object v1
 
-    const-string v2, "0"
+    const-string v2, "1"
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -84,7 +84,7 @@
     return v0
 
     :cond_0
-    const/4 v0, 0x0
+    const/4 v0, 0x1
 
     goto :goto_0
 .end method
@@ -132,7 +132,7 @@
 
     move-result-object v1
 
-    const/4 v2, 0x1
+    const/4 v2, 0x0
 
     invoke-interface {v0, v1, v2}, Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String;Z)Z
 
