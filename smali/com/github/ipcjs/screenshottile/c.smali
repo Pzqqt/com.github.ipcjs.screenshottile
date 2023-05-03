@@ -6,7 +6,7 @@
 .method public static a()I
     .locals 2
 
-    const-string v0, "input keyevent 120"
+    const-string v0, "input keyevent KEYCODE_SYSRQ"
 
     const/4 v1, 0x0
 
